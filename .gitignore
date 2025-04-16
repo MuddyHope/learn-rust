@@ -1,0 +1,14 @@
+Ignore all compiled binaries named 'main' inside any subfolder
+**/main
+
+
+# Ignore all executables (Unix-style, no file extension)
+**/*.exe      # If you ever compile on Windows
+**/*.out      # If you name them like main.out
+**/*.o        # Object files
+
+# Ignore Cargo lock file for libraries
+Cargo.lock
+
+
+.DS_Store
