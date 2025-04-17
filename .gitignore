@@ -1,6 +1,7 @@
 Ignore all compiled binaries named 'main' inside any subfolder
 **/main
 
+target
 
 # Ignore all executables (Unix-style, no file extension)
 **/*.exe      # If you ever compile on Windows
@@ -9,6 +10,7 @@ Ignore all compiled binaries named 'main' inside any subfolder
 
 # Ignore Cargo lock file for libraries
 Cargo.lock
+Cargo.toml
 
 
 .DS_Store
